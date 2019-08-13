@@ -1,0 +1,25 @@
+<?php
+
+$nome = "Hcode";
+$site = 'www.hcode.com.br';
+
+$ano = 1990;
+$salario = 5500.99;
+$bloqueado = false;
+//////////////////////////////////////////////////////////////////
+$frutas = array("abacaxi", "laranja", "manga", "melão");
+
+//echo $frutas[2];
+
+$nascimento = new DateTime();
+
+//var_dump($nascimento);
+//////////////////////////////////////////////////////////////////
+$arquivo = fopen("exemplo-01.php", "r"); //abre arquivo ou URL
+var_dump($arquivo);
+
+$nulo = NULL; //ausencia de valor - vazio = uma variavel inciada
+
+var_dump($nulo);
+
+?>
